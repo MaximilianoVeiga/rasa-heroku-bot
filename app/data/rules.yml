@@ -2,6 +2,6 @@ version: "2.0"
 
 rules:
 - rule: Quando não entender a mensagem do usuário (confiança baixa para a intenção)
-    steps:
+	steps:
     - intent: nlu_fallback
     - action: action_default_fallback
